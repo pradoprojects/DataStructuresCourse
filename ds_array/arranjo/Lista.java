@@ -2,63 +2,64 @@ package cap3.arranjo;
 public class Lista {
   private Object item[];
   private int primeiro, ultimo, pos;
-  // @{\it Opera\c{c}\~oes}@
-  public Lista () { // @{\it Cria uma Lista vazia}@
+  // @{\it Operations}@
+  public Lista () { // @{\it Creates an empty list with 1000 positions capacity}@
     this.item = new Object[1000]; this.pos = -1;
     this.primeiro = 0; this.ultimo = this.primeiro;
   }
-  public Lista (int maxTam) { // @{\it Cria uma Lista vazia}@
+  public Lista (int maxTam) { // @{\it Creates an empty list with maxTam capacity}@
     this.item = new Object[maxTam]; this.pos = -1;
     this.primeiro = 0; this.ultimo = this.primeiro;
   }
-  public Object pesquisa (Object chave) {
+  public Object pesquisa (Object chave) { // @{\it Searches an element in the list based in the key (chave) given in the parameter }@
     if (this.vazia () || chave == null) return null;
     for (int p = 0; p < this.ultimo; p++)
       if (this.item[p].equals (chave)) return this.item[p];
     return null;
   }
-  public void insere (Object x) throws Exception {
+  public void insere (Object x) throws Exception {  // @{\it Inserts an element (x) in the list }@
     if (this.ultimo >= this.item.length)
       throw new Exception ("Erro: A lista esta cheia");
     else { this.item[this.ultimo] = x; this.ultimo = this.ultimo + 1; }
   }
-  public Object retira (Object chave) throws Exception { 
+  public Object retira (Object chave) throws Exception { // @{\it Removes and returns a reference to an element (if existing) from the list based in its key (chave)}@
     if (this.vazia () || chave == null)
       throw new Exception ("Erro : A lista esta vazia");
     int p = 0;
     while (p < this.ultimo && !this.item[p].equals (chave)) p++;
-    if (p >= this.ultimo) return null; // @{\it Chave n\~ao encontrada}@
+    if (p >= this.ultimo) return null; // @{\it key not found}@
     Object item = this.item[p]; this.ultimo = this.ultimo - 1;
     for (int aux = p; aux < this.ultimo; aux++)
       this.item[aux] = this.item[aux + 1];
     return item;
   }
-  public Object retiraPrimeiro () throws Exception {
+  public Object retiraPrimeiro () throws Exception { // @{\it Removes and returns a reference to the first element from the list}@
     if (this.vazia ()) throw new Exception ("Erro : A lista esta vazia");
     Object item = this.item[0]; this.ultimo = this.ultimo - 1;
     for (int aux = 0; aux < this.ultimo; aux++)
       this.item[aux] = this.item[aux + 1];
     return item;
   }
-  public boolean vazia () { return (this.primeiro == this.ultimo); }
+  public boolean vazia () { // @{\it Checks if the list is empty}@
+	return (this.primeiro == this.ultimo); }
   public void imprime () {
     for (int aux = this.primeiro; aux < this.ultimo; aux++){
 		System.out.println (this.item[aux].toString ());
 	}
   }
 
-  public Object primeiro () {
+  public Object primeiro () { // @{\it Returns a reference for the first element of the list}@
     this.pos = -1; return this.proximo ();
   }
 
-  public Object proximo () {
+  public Object proximo () {  // @{\it Returns a reference for the next element of the list, in relation to the current position}@
     this.pos++;
     if (this.pos >= this.ultimo) return null; 
     else return this.item[this.pos];
   }
   
   
-// Exercicio 6: Metodo para inserir um objeto x após a primeira ocorrência de uma determinada "chave"
+// @{\it Exercise 6: Method to insert an object x after the first occurence of an specific key (chave) }@
   public void insereAposChave (Object x, Object chave) throws Exception {
 
     if (this.vazia ()|| chave == null){
@@ -102,7 +103,7 @@ public class Lista {
   }
   
   
-//Exercicio 7: Método que insere evitando que a inserção ocorra quando o objeto ja existe na lista.
+//@{\it Exercise 7: Method that inserts an element unless it already exists in the list.  }@
   public void insereSemRepetir (Object x) throws Exception {
 
     Object existeItem = null;
@@ -118,14 +119,14 @@ public class Lista {
 		}
 	}
   }
-  
-//Exercicio 8: Metodo que me retorna a quantidade de itens contidos na lista.
+ 
+//@{\it Exercise 8: Method that returns the total of itens contained in the list }@ 
   public int getTamanho(){
 	  return this.ultimo;
   }
   
   
-// Exercicio 8: Metodo que cria uma lista nova juntando a lista atual a uma segunda, fornecida no parametro
+//@{\it Exercise 8: Method that creates a new list attaching a list, given in the parameters, to the current list}
   public Lista uneListas (Lista  lst2) throws Exception{
 	
 	if(lst2 == null){
@@ -151,8 +152,7 @@ public class Lista {
 	}
   }
 
-  
-  // Exercicio 8 (segunda opcao): Metodo que cria uma lista nova juntando duas listas fornecidas no parametro.
+  //@{\it Exercise 8: Method that creates a new list based in the two lists, given in the parameters.}
   
   public Lista uneListas2 (Lista  lst1, Lista  lst2) throws Exception{
 	  
@@ -182,14 +182,15 @@ public class Lista {
 	}
 	
 
-	public int tamanho( ){return this.ultimo;}
+	//public int tamanho( ){return this.ultimo;}
 	
+	//@{\it Inverts and intercalates a List given in the parameter with the current one}
 	public Lista inverteEintercala(Lista lis2)throws Exception{
-		int total = this.tamanho() + lis2.tamanho();
+		int total = this.getTamanho() + lis2.getTamanho();
 		Lista lisF = new Lista(total);
 		int cont;
 		Object aux;
-		for(cont=this.primeiro; cont<(this.tamanho()/2); cont++){
+		for(cont=this.primeiro; cont<(this.getTamanho()/2); cont++){
 			aux = this.item[cont];
 			this.item[cont] = this.item[(this.ultimo-1)-cont];
 			this.item[(this.ultimo-1)-cont]=aux;
