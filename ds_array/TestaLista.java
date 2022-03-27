@@ -1,82 +1,91 @@
+//solution to the homework problems of march 21.
 package cap3;
 
 import cap3.arranjo.Lista;
 
-/**
-@author: Marllos Prado.
-Class to implement the solution of the exercícises 6, 7 and 8.
-
-*/
-
 public class TestaLista {
   public static void main (String[] args) {
-	int capacidadeMaxima = 12;
-    Lista lista = new Lista(capacidadeMaxima);
+    Lista lista = new Lista(12);
     Integer n = null;
 	
-	//Insere o item kC e kE na lista.
+    int i, j, k, max;
+    Integer kA = new Integer(1);
+	Integer kB = new Integer(2);
 	Integer kC = new Integer(3);
+	Integer kD = new Integer(4);
 	Integer kE = new Integer(5);
+	Integer kF = new Integer(6);
 	
-	/*Depois:
-	    - Insere um novo item após uma chave existente com o método insereAposChave.
-		- Insere um item que ainda não existe com o método insereSemRepetir.
-		- Insere um item que já existe com o método insereSemRepetir.
+    max = 6;
+    
+	/*Vou exercicitar tudo dentro de um bloco 'try' porque se acontecer exceção irei tratá-la no 'catch'.
+	Se eu não quisesse tratar a exceção, bastava adicionar 'throws Exception' antes de abrir a chave do main. 
+	Nesse último caso, a exceção, quando ocorrer, será exibida diretamente no terminal, no formato padrão de um erro java.
+	*/
+	
+	/*Here, I am exercising everything inside a 'try' block because in case the exception happens I'll treat it in the 'catch'.
+	I case I did't wish to handle the exception, I could just add 'throws Exception' before the opening curling brackets of the main method. 
+	In this last case, the exception , when it happens, will be shown directly on the prompt, in the standard form of a java error.
 	*/
 	try {
-	  lista.insere(kE);  
-	  lista.insere(kC); 
-	  lista.insereAposChave(new Integer(50), kE);
-	  lista.insereSemRepetir(new Integer(90));
-	  System.out.println("Chegou ate aqui sem excecao! Sinal de que as insercoes funcionaram!");
-	  lista.insereSemRepetir(new Integer(3));
+      
+	  // Insere cada objeto Integer criado antes na lista
+      // Inserts each Integer object previously created in the list.
+      lista.insere(kA);
+      System.out.println("Inseriu " + kA.toString());
+	  
+	  lista.insere(kB);
+      System.out.println("Inseriu " + kB.toString());
+	 
+	  lista.insere(kC);
+      System.out.println("Inseriu " + kC.toString());
+     
+	  lista.insere(kD);
+      System.out.println("Inseriu " + kD.toString());
+	  
+	  lista.insere(kE);
+      System.out.println("Inseriu " + kE.toString());
+	  
+	  lista.insere(kF);
+      System.out.println("Inseriu " + kF.toString());
+	  
+	 
+      
+      Integer x = new Integer(4);
+	  // Pesquisa um objeto Integer de valor 4 na lista. Sabemos que ele existe, porque o kD foi inserido
+      // Searches an object Integer with the value "4" in the list. We know it exists, because kD was previously inserted.
+      
+	  n = (Integer) lista.pesquisa(x);
+	  if (n == null){
+		System.out.println("Item nao encontrado");
+	  }else{
+		System.out.println("O item encontrado eh o item: "+n.toString());
+	  }
+      
+	  // Pesquisa sem sucesso
+	  // Unsuccessful search
+      Object item = lista.pesquisa(new Integer(100)); // Note que aqui eu optei por instanciar o objeto Integer(100) direto no parametro. Poderia ter feito tambem do jeito anterior, ou seja, armazenando antes em uma variavel.
+      if (item == null){
+		System.out.println("Item nao encontrado");
+	  }else{
+		System.out.println("O item encontrado eh o item: "+item.toString());
+	  }
+	
+    // Aqui eu trato a exceção quando ela acontece.
+	// Here I handle the exception when it happens.
 	} catch (Exception e) {
-	  System.out.println(e.getMessage());
+      System.out.println(e.getMessage());
+    }
+	
+	//Aqui testo se a lista esta vazia. 
+	//Here I test if the list is empty. 
+	boolean teste = lista.vazia();
+	if(teste == true){
+		System.out.println("Lista Vazia!");
+	}else{
+		System.out.println("Ainda há algum elemento na lista!");
 	}
 	
-	
-	//Testa metodo que une duas listas
-	
-	
-	Lista L1 = new Lista(3);
-	Lista L2 = new Lista(2);
-	Lista L3 = null; // variavel que irá guardar a referencia para a lista que será gerada pela união de L1 e L2.
-	
-    Integer itemA = new Integer(2);
-	Integer itemB = new Integer(3);
-	Integer itemC = new Integer(4);
-	
-	Integer itemD = new Integer(7);
-	Integer itemE = new Integer(8);
-	
-	
-	try {
-      
-	  // Insere cada objeto Integer criado nas listas L1 e L2
-      
-      L1.insere(itemA);
-      System.out.println("Inseriu na L1 " + itemA.toString());
-	  L1.insere(itemB);
-      System.out.println("Inseriu na L1 " + itemB.toString());
-	  L1.insere(itemC);
-      System.out.println("Inseriu na L1 " + itemC.toString());
-	  
-	  L2.insere(itemD);
-      System.out.println("Inseriu na L2 " + itemD.toString());
-	  L2.insere(itemE);
-      System.out.println("Inseriu na L2 " + itemE.toString());
-	
-	  
-	  //Chama o método que une a L2 na L1 e armazena o retorno em L3
-	  L3 = L1.uneListas(L2);
-	  
-	  //Testa se L3 tem o tamanho igual a L1 + L2. Se tiver, é porque ela de fato uniu os itens de L1 e L2.
-	  System.out.println("O tamanho de L3 eh: "+L3.getTamanho());
-	  
-	  
-	}catch(Exception e) {
-	  System.out.println(e.getMessage());
-	}
  
   }
 }
