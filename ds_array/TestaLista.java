@@ -4,11 +4,11 @@ import cap3.arranjo.Lista;
 
 /**
 @author: Marllos Prado.
-Classe para testar os exercícios 6, 7 e *8* (obs.: 8 usando o metodo *uneListas*).
+Class to implement the solution of the exercícises 6, 7 and 8.
 
 */
 
-public class TestaLista3 {
+public class TestaLista {
   public static void main (String[] args) {
 	int capacidadeMaxima = 12;
     Lista lista = new Lista(capacidadeMaxima);
