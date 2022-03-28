@@ -7,7 +7,7 @@
 <div align="justify">
 <br/>
 
-<h2> Problem "List Test" <h2>
+<h2> Problem "List Test" </h2>
 <p>
 You must implement a class that tests the methods of the Lista.java class. As the list is implemented over an array of objects, consider that the objects that will be inserted/removed in the list will be objects of the Integer class. 
 </p>
@@ -17,7 +17,7 @@ You must implement a class that tests the methods of the Lista.java class. As th
 <br>
   
   
-<h2> Problem "New List Operations" <h2>
+<h2> Problem "New List Operations" </h2>
 <ol>
   <li>
 You must implement the method "insereAposChave" in the List (Lista.java) so that it inserts an item after the first occurrence of a given key. <a href="./arranjo/Lista.java#L63" target="_blank">Check Solution</a> 
@@ -38,7 +38,7 @@ You must implement the method "insereAposChave" in the List (Lista.java) so that
 <br>
   
   
-<h2> Problem "Stack Test" <h2>
+<h2> Problem "Stack Test" </h2>
 <ol>
 <li>
 Define a method on the stack (Pilha.java) that prints the elements of the stack on the screen, in stack format. <a href="./arranjo/Pilha.java#L30" target="_blank">Check Solution</a> 
@@ -64,7 +64,7 @@ Test the method  that prints the the stack on the screen, in stack format. <a hr
 <br>
   
   
-<h2> Problem "New Stack Operations" <h2>
+<h2> Problem "New Stack Operations" </h2>
 <ol>
   <li>
   Build a program that exercises, in this order:
