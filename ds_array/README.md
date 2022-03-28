@@ -7,7 +7,7 @@
 <div align="justify">
 <br/>
 
-<h2> Problem "TestaLista" <h2>
+<h2> Problem "List Test" <h2>
 <p>
 You must implement a class that tests the methods of the Lista.java class. As the list is implemented over an array of objects, consider that the objects that will be inserted/removed in the list will be objects of the Integer class. 
 </p>
@@ -15,7 +15,9 @@ You must implement a class that tests the methods of the Lista.java class. As th
 <br>
 <br>
 <br>
-<h2> Problem "TestaLista2" <h2>
+  
+  
+<h2> Problem "New List Operations" <h2>
 <ol>
   <li>
 You must implement the method "insereAposChave" in the List (Lista.java) so that it inserts an item after the first occurrence of a given key. <a href="./arranjo/Lista.java#L63" target="_blank">Check Solution</a> 
@@ -31,15 +33,39 @@ You must implement the method "insereAposChave" in the List (Lista.java) so that
   You must implement a class that tests the methods implemented for the previous itens. <a href="./TestaLista2.java" target="_blank">Check Solution</a> 
   </li>
 </ol>
- 
 <br>
 <br>
 <br>
-<h2> Problem "TestaPilha2" <h2>
+  
+  
+<h2> Problem "Stack Test" <h2>
 <ol>
-  <li>
+<li>
 Define a method on the stack (Pilha.java) that prints the elements of the stack on the screen, in stack format. <a href="./arranjo/Pilha.java#L30" target="_blank">Check Solution</a> 
-  </li>
+</li>
+<li>
+Test the method  that prints the the stack on the screen, in stack format. <a href="./arranjo/TestaPilha.java" target="_blank">Check Solution</a> 
+</li>
+  
+<li>
+  Build a program that exercises, in this order:
+  <ol>
+  <li>Creating two stacks.</li>
+  <li>Filling the first stack with user-supplied integer values.</li>
+  <li>Print the first stack.</li>
+  <li>Filling the second stack by popping the items from the first.</li>
+  <li>Printing the two stacks.</li>
+  </ol>
+  <a href="./TestaPilha2.java" target="_blank">Check Solution</a> 
+</li>
+</ol>
+<br>
+<br>
+<br>
+  
+  
+<h2> Problem "New Stack Operations" <h2>
+<ol>
   <li>
   Build a program that exercises, in this order:
   <ol>
@@ -50,6 +76,7 @@ Define a method on the stack (Pilha.java) that prints the elements of the stack 
   <li>Printing the two stacks.</li>
   </ol>
   <a href="./TestaPilha2.java" target="_blank">Check Solution</a> 
- </ol>  
+  </li>
+</ol>  
 </div>   
 </section>  
