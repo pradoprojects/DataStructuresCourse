@@ -11,7 +11,7 @@
 <p>
 You must implement a class that tests the methods of the Lista.java class. As the list is implemented over an array of objects, consider that the objects that will be inserted/removed in the list will be objects of the Integer class. 
 </p>
-<a href="">Check Solution</a>  
+<a href="./TestaLista.java">Check Solution</a>  
   
 <h2> Problem "TestaLista2" <h2>
 <ol>
@@ -26,7 +26,7 @@ You must implement the method "insereAposChave" in the List (Lista.java) so that
   </li>
   
   <li>
-  You must implement a class that tests the methods implemented for the previous itens. <a href="./TestaLista.java" target="_blank">Check Solution</a> 
+  You must implement a class that tests the methods implemented for the previous itens. <a href="./TestaLista2.java" target="_blank">Check Solution</a> 
   </li>
 </ol>
     
