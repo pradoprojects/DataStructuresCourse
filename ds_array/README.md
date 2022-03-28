@@ -85,10 +85,10 @@ Test the method  that prints the the stack on the screen, in stack format. <a hr
 <h2> Problem "Queue Test and Interleaving Queue" </h2>
 <ol>
   <li>
-  Implement a method that prints the queue items in the order they were queued (oldest first and newest last).  <a href="./arranjo/Fila.java#L36" target="_blank">Check Solution</a> <a href="./Exercicio18.java" target="_blank">Check Solution</a>
+  Implement a method that prints the queue items in the order they were queued (oldest first and newest last).  <a href="./arranjo/Fila.java#L36" target="_blank">Check Solution (Part 1)</a> <a href="./Exercicio18.java" target="_blank">Check Solution (Part 2)</a>
   </li>
   <li>
-  Implement a method on the queue in which, given another queue, it creates a third queue by interleaving the elements of the second with those of the first. Start merging with the queue that contains the method.  <a href="./arranjo/Fila.java#L46" target="_blank">Check Solution</a> <a href="./Exercicio19.java" target="_blank">Check Solution</a>
+  Implement a method on the queue in which, given another queue, it creates a third queue by interleaving the elements of the second with those of the first. Start merging with the queue that contains the method.  <a href="./arranjo/Fila.java#L46" target="_blank">Check Solution (Part 1)</a> <a href="./Exercicio19.java" target="_blank">Check Solution (Part 2)</a>
   </li>
 </ol>  
 </div>   
