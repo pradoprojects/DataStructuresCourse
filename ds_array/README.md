@@ -49,7 +49,7 @@ Define a method on the stack (Pilha.java) that prints the elements of the stack 
   <li>Filling the second stack by popping the items from the first.</li>
   <li>Printing the two stacks.</li>
   </ol>
-  <a href="./arranjo/Lista.java#L129" target="_blank">Check Solution</a> 
+  <a href="./TestaPilha2.java" target="_blank">Check Solution</a> 
  </ol>  
 </div>   
 </section>  
