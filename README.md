@@ -2,7 +2,7 @@
 
 <br/>
 <div align="center">                                                             
-  <img src="./dslogo.png" alt="Data Structures Logo">
+  <img height="50%" width="50%" src="./dslogo.png" alt="Data Structures Logo">
 </div>  
 <br/>
 
@@ -15,7 +15,7 @@ The repo is organized as follows:
   
 * _ds_array_: Problems and solutions defined over array implementations of list, stacks and queues data structures.
 
-* _ds_dynamic: Problems and solutions defined over dynamic implementations of list, stacks and queues data structures.
+* _ds_dynamic_: Problems and solutions defined over dynamic implementations of list, stacks and queues data structures.
 
 <div>
 </section>
