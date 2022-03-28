@@ -35,7 +35,7 @@ You must implement the method "insereAposChave" in the List (Lista.java) so that
 <br>
 <br>
 <br>
-<h2> Problem "TestaLista2" <h2>
+<h2> Problem "TestaPilha2" <h2>
 <ol>
   <li>
 Define a method on the stack (Pilha.java) that prints the elements of the stack on the screen, in stack format. <a href="./arranjo/Pilha.java#L30" target="_blank">Check Solution</a> 
