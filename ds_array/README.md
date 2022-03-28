@@ -104,7 +104,7 @@ Implement a ticket class (Senha.java) which contains a password number, a type o
   </li>
 
   <li>
-Implement a test class that allows the user to generate 10 tickets. These tickets must be entered into a single list as they are generated. At the end of ticket generation, your program should go through the list, queuing priority service tickets in one queue and normal service tickets in another, following the order of the time they were issued. When finished, your program should alternately dequeue a ticket from each queue. For each unqueued ticket, you must print the information for that ticket. <a href="./arranjo/Exercicio20.java" target="_blank">Check Solution</a>
+Implement a test class that allows the user to generate 10 tickets. These tickets must be entered into a single list as they are generated. At the end of ticket generation, your program should go through the list, queuing priority service tickets in one queue and normal service tickets in another, following the order of the time they were issued. When finished, your program should alternately dequeue a ticket from each queue. For each unqueued ticket, you must print the information for that ticket. <a href="./Exercicio20.java" target="_blank">Check Solution</a>
 </li>
 </ol>
 <br>
