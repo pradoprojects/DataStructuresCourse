@@ -2,7 +2,7 @@
 
 <br/>
 <div align="center">                                                             
-  <img src="./dslogo.jpg" alt="Data Structures Logo">
+  <img src="./dslogo.png" alt="Data Structures Logo">
 </div>  
 <br/>
 
