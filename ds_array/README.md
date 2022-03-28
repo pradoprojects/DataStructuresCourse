@@ -41,15 +41,15 @@ You must implement the method "insereAposChave" in the List (Lista.java) so that
 Define a method on the stack (Pilha.java) that prints the elements of the stack on the screen, in stack format. <a href="./arranjo/Pilha.java#L30" target="_blank">Check Solution</a> 
   </li>
   <li>
-  You must implement the method "insereSemRepetir" in the List (Lista.java) so that it inserts an item only if there is no other item in the list with the same key as the item to insert.<a href="./arranjo/Lista.java#L106" target="_blank">Check Solution</a> 
-  </li>
-  <li>
-  You must implement the method "uneListas" in the List (Lista.java) so that it joins two lists given as a parameter (the second must be joined at the end of the first). <a href="./arranjo/Lista.java#L129" target="_blank">Check Solution</a> 
-  </li>
-  
-  <li>
-  You must implement a class that tests the methods implemented for the previous itens. <a href="./TestaLista2.java" target="_blank">Check Solution</a> 
-  </li>
-</ol>  
+  Build a program that exercises, in this order:
+  <ol>
+  <li>Creating two stacks.</li>
+  <li>Filling the first stack with user-supplied integer values.</li>
+  <li>Print the first stack.</li>
+  <li>Filling the second stack by popping the items from the first.</li>
+  <li>Printing the two stacks.</li>
+  </ol>
+  <a href="./arranjo/Lista.java#L129" target="_blank">Check Solution</a> 
+ </ol>  
 </div>   
 </section>  
