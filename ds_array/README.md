@@ -96,7 +96,7 @@ Test the method  that prints the the stack on the screen, in stack format. <a hr
 <br>
 
   
-<h2> Problem "Ticket emission" </h2>
+<h2> Problem "Ticket Emission" </h2>
 <ol>
   <li>
 Implement a ticket class (Senha.java) which contains a password number, a type of service (priority or normal) and the time it was issued. Your class should override the toString() method in order to return a String with nr. password, time and type of service. 
