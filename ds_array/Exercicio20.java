@@ -2,9 +2,9 @@
 	Solution for exercise 20.
 */
 
-package cap3;
-import cap3.arranjo.Lista;
-import cap3.arranjo.Fila;
+package ds_array;
+import ds_array.arranjo.Lista;
+import ds_array.arranjo.Fila;
 import java.util.Scanner;
 
 public class Exercicio20{

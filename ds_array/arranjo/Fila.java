@@ -1,4 +1,4 @@
-package cap3.arranjo;
+package ds_array.arranjo;
 public class Fila {
   private Object item[];
   private int    frente, tras;

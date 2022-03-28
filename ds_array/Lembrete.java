@@ -1,5 +1,5 @@
-package cap3;
-import cap3.autoreferencia.*;
+package ds_array;
+
 
 
 public class Lembrete{

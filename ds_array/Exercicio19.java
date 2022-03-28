@@ -1,8 +1,8 @@
 /**
 	Solution for exercise 19.
 */
-package cap3;
-import cap3.arranjo.Fila;
+package ds_array;
+import ds_array.arranjo.Fila;
 
 public class Exercicio19{
 	public static void main (String [] args){

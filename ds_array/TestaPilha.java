@@ -1,6 +1,5 @@
-package cap3;
-
-import cap3.arranjo.*;
+package ds_array;
+import ds_array.arranjo.*;
 
 /**
 @author: Marllos Prado.

@@ -1,8 +1,8 @@
 /*
 Password for exercises 20 and 23
 */
-package cap3;
-import cap3.arranjo.Fila;
+package ds_array;
+import ds_array.arranjo.Fila;
 
 public class Senha{
 	int senha;

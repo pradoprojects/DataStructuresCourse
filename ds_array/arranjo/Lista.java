@@ -1,4 +1,4 @@
-package cap3.arranjo;
+package ds_array.arranjo;
 public class Lista {
   private Object item[];
   private int primeiro, ultimo, pos;

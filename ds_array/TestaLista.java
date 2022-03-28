@@ -1,8 +1,7 @@
 //solução para a tarefa de casa de 21 de março.
 //solution to the homework problems of march 21.
-package cap3;
-
-import cap3.arranjo.Lista;
+package ds_array;
+import ds_array.arranjo.Lista;
 
 public class TestaLista {
   public static void main (String[] args) {
