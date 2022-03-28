@@ -16,7 +16,7 @@ You must implement a class that tests the methods of the Lista.java class. As th
 <h2> Problem "TestaLista2" <h2>
 <ol>
   <li>
-You must implement the method "insereAposChave" in the List (Lista.java) so that it inserts an item after the first occurrence of a given key. <a href="" target="_blank">Check Solution</a> 
+You must implement the method "insereAposChave" in the List (Lista.java) so that it inserts an item after the first occurrence of a given key. <a href="./arranjo/Lista.java?plain=1#L14" target="_blank">Check Solution</a> 
   </li>
   <li>
   You must implement the method "insereSemRepetir" in the List (Lista.java) so that it inserts an item only if there is no other item in the list with the same key as the item to insert.<a href="" target="_blank">Check Solution</a> 
