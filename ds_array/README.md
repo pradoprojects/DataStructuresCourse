@@ -12,7 +12,8 @@
 You must implement a class that tests the methods of the Lista.java class. As the list is implemented over an array of objects, consider that the objects that will be inserted/removed in the list will be objects of the Integer class. 
 </p>
 <a href="./TestaLista.java">Check Solution</a>  
-  
+<br>
+<br>
 <h2> Problem "TestaLista2" <h2>
 <ol>
   <li>
