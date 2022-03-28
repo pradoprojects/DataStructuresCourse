@@ -1,7 +1,7 @@
 # General Instructions
 
 * *[arranjo](./arranjo/)* is the folder where the list (Lista.java), stack (Pilha.java) and queue (Fila.java) are located.
-* All the other ".java" files in this directory are solutions for the problems stated below.
+* All the other ".java" files in this directory are solutions for the problems stated below. Each solution is specifically indicated by the links provided below.
 
 <section>
 <div align="justify">
