@@ -1,3 +1,3 @@
 ## Instructions
 
-* *arranjo* is the folder where the list (lista), stack (pilha) and queue (fila) are located.
+* *arranjo* is the folder where the list (lista.java), stack (pilha.java) and queue (fila.java) are located.
