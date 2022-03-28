@@ -14,6 +14,7 @@ You must implement a class that tests the methods of the Lista.java class. As th
 <a href="./TestaLista.java">Check Solution</a>  
 <br>
 <br>
+<br>
 <h2> Problem "TestaLista2" <h2>
 <ol>
   <li>
@@ -30,6 +31,25 @@ You must implement the method "insereAposChave" in the List (Lista.java) so that
   You must implement a class that tests the methods implemented for the previous itens. <a href="./TestaLista2.java" target="_blank">Check Solution</a> 
   </li>
 </ol>
-    
+ 
+<br>
+<br>
+<br>
+<h2> Problem "TestaLista2" <h2>
+<ol>
+  <li>
+Define a method on the stack (Pilha.java) that prints the elements of the stack on the screen, in stack format. <a href="./arranjo/Pilha.java#L30" target="_blank">Check Solution</a> 
+  </li>
+  <li>
+  You must implement the method "insereSemRepetir" in the List (Lista.java) so that it inserts an item only if there is no other item in the list with the same key as the item to insert.<a href="./arranjo/Lista.java#L106" target="_blank">Check Solution</a> 
+  </li>
+  <li>
+  You must implement the method "uneListas" in the List (Lista.java) so that it joins two lists given as a parameter (the second must be joined at the end of the first). <a href="./arranjo/Lista.java#L129" target="_blank">Check Solution</a> 
+  </li>
+  
+  <li>
+  You must implement a class that tests the methods implemented for the previous itens. <a href="./TestaLista2.java" target="_blank">Check Solution</a> 
+  </li>
+</ol>  
 </div>   
 </section>  
