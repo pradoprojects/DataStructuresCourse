@@ -1,0 +1,53 @@
+package cap3;
+
+import cap3.autoreferencia.*;
+import java.util.Scanner;
+
+/**
+@author: Marllos Prado.
+Classe para testar os exercícios 11 e 12;
+*/
+
+
+public class TestaListaAutoReferenciada{
+  public static void main (String[] args) {
+	Scanner sc = new Scanner(System.in);
+	int valor; 
+	
+	
+	// Cria duas listas com capacidade maxima de 5 itens.
+	Lista L1 = new Lista();
+    Lista L2 = new Lista();
+	Lista L3;
+	
+	
+	try {
+		//Fiz esse for para agilizar a instanciação dos Integers e suas respectivas inserções nas Listas.
+		for(int cont=1; cont<=5; cont++){
+			L1.insere(new Integer(cont));
+		}
+		System.out.println("Imprimindo a primeira lista...");
+		L1.imprime();
+		
+		for(int cont=6; cont<=10; cont++){
+			L2.insere(new Integer(cont));
+		}
+		System.out.println("Imprimindo a segunda lista...");
+		L2.imprime();
+		
+		//Teste do Exercicio 12
+		L3 = L1.uneLista(L2);
+		System.out.println("Imprimindo a terceira lista (uniao das anteriores)...");
+		L3.imprime();
+		
+		//Teste do Exercicio 11
+		L1.insereSemRepetir(new Integer(2));
+
+	} catch (Exception e) {
+	  System.out.println(e.getMessage());
+	}	
+  }
+  
+	
+	
+}
