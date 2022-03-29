@@ -1,4 +1,4 @@
-package cap3.autoreferencia;
+package ds_dynamic.autoreferencia;
 public class Lista {
   private static class Celula { Object item; Celula prox; }
   private Celula primeiro, ultimo, pos;

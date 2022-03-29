@@ -33,6 +33,7 @@ public class Pilha {
   }
   
   //Exercicio 15. Teste junto feito junto do Exercicio 16
+  //Exercise 15. Test done together with Exercise 16
   public void imprime() {
 	Celula aux = this.topo;
 	
