@@ -1,6 +1,6 @@
 # General Instructions
 
-* *[autoreferencia](./arranjo/)* is the folder where the list (Lista.java), stack (Pilha.java) and queue (Fila.java) are located.
+* *[autoreferencia](./autoreferencia/)* is the folder where the list (Lista.java), stack (Pilha.java) and queue (Fila.java) are located.
 * All the other ".java" files in this directory are solutions for the problems stated. Each solution is specifically indicated by the links provided below.
 
 <section>
@@ -38,8 +38,7 @@ Test the method  that prints the stack on the screen, in stack format. <a href="
 <br>
 <br>
   
-  
-<h2> Problem "Reminder Stack" </h2>
+<h2> Problem "Stack of Reminders" </h2>
 <ul>
   <li>
   Define a class that represents a Reminder entity. Your reminder must contain at least a text (String) and the time for notification. Assume that the notification time is an integer value informed by the user and formed by the concatenation of hour and minute. Example: 16:03 --> 1603.<a href="./Lembrete.java" target="_blank">Check Solution</a> 
