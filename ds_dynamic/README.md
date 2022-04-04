@@ -55,7 +55,7 @@ Test the method  that prints the stack on the screen, in stack format. <a href="
 <h2> Problem "Ticket Emission" </h2>
 <ul>
   <li>
-  Reuse the "Senha" class (Ticket) and implement a test class that allows the user to generate as many tickets as they want. These tickets must be placed in a single queue as they are generated. At the end of ticket generation, your program should dequeue the tickets and requeue them in a queue dedicated to their priority type. When finished, it should print each of the priority queues.<a href="./autoreferencia/Exercicio23.java" target="_blank"> Check Solution</a>
+  Reuse the "Senha" class (Ticket) and implement a test class that allows the user to generate as many tickets as they want. These tickets must be placed in a single queue as they are generated. At the end of ticket generation, your program should dequeue the tickets and requeue them in a queue dedicated to their priority type. When finished, it should print each of the priority queues.<a href="./Exercicio23.java" target="_blank"> Check Solution</a>
   </li>
 </ul>  
 <br>
