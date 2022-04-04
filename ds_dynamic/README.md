@@ -52,6 +52,19 @@ Test the method  that prints the stack on the screen, in stack format. <a href="
 <br>
 <br>
   
+<h2> Problem "New Queue Operations" </h2>
+<ul>
+  <li>
+  Implement a method that prints the queue items in the order they were queued (oldest first and newest last). Create a test class that demonstrates the use of the method you created.<a href="./autoreferencia/Fila.java#L30" target="_blank"> Check Solution (part1)</a> <a href="./Exercicio21.java" target="_blank"> Check Solution (part2)</a> 
+  </li>
+  <li>
+  Implement a method on the queue in which, given another queue, it creates a third queue by interleaving the elements of the second with those of the first. Start merging with the queue that contains the method.<a href="./autoreferencia/Fila.java#L42" target="_blank"> Check Solution (part1)</a> <a href="./Exercicio22.java" target="_blank"> Check Solution (part2)</a> 
+  </li>
+</ul>  
+<br>
+<br>
+<br>
+
 
 
 </div>   
