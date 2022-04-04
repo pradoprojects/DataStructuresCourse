@@ -41,7 +41,7 @@ Test the method  that prints the stack on the screen, in stack format. <a href="
 <h2> Problem "Stack of Reminders" </h2>
 <ul>
   <li>
-  Define a class that represents a Reminder entity. Your reminder must contain at least a text (String) and the time for notification. Assume that the notification time is an integer value informed by the user and formed by the concatenation of hour and minute. Example: 16:03 --> 1603.<a href="./Lembrete.java" target="_blank">Check Solution</a> 
+  Define a class that represents a Reminder entity. Your reminder must contain at least a text (String) and the time for notification. Assume that the notification time is an integer value informed by the user and formed by the concatenation of hour and minute. Example: 16:03 --> 1603. <a href="./Lembrete.java" target="_blank">Check Solution</a> 
   </li>
   <li>Your program should allow the user to create as many reminders as they want.</li>
   <li>Make a program that keeps these reminders in a list as they are generated. Then put them in a stack so that the more recent the notification time, the higher up it is in the stack. At the end, show the reminders to the user, displaying the most recent notification first to the most distant notification.</li>
