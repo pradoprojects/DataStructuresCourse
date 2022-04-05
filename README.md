@@ -16,6 +16,8 @@ The repo is organized as follows:
 * _ds_array package_: Problems and solutions defined over array implementations of list, stack and queue data structures.
 
 * _ds_dynamic package_: Problems and solutions defined over dynamic implementations of list, stack and queue data structures.
+  
+* _sorting_: Problems and solutions defined over sorting algorithms.
 
 <div>
 </section>
