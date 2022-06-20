@@ -21,7 +21,7 @@ The repo is organized as follows:
 
 <div>
 
-You can also check some videos recorded and posted in youtube
+You can also check some videos recorded and posted on youtube
 
   * _Introduction to Java Part 1_: https://youtu.be/fQuLR5xgzjs
   * _Introduction to Java Part 2_: https://youtu.be/pz5-Vhp0EoM
