@@ -23,7 +23,8 @@ The repo is organized as follows:
 
 You can also check some videos recorded and posted on youtube
 
-  * _Introduction to Java_: https://youtu.be/pz5-Vhp0EoM (Subtitles reviewed. To English subtitles, turn on subtitles and activate automatic translation to English in the video's details (gear icon))
+  * _Introduction to Java_: https://www.youtube.com/watch?v=fQuLR5xgzjs (Subtitles reviewed. To English subtitles, turn on subtitles and activate automatic translation to English in the video's details (gear icon)
+  * _Algorithms Complexity_: https://youtu.be/pz5-Vhp0EoM 
   * _Recursion_: https://youtu.be/DchD2YYU0pk
   
   * _Algorithms Complexity - Part 1_: https://youtu.be/4BPlRBz1jn0
